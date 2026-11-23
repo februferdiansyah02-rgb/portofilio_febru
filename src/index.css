@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=BBH+Bartle&display=swap');
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+
+
+
+.font-bbh {
+  font-family: "BBH Bartle", sans-serif;
+}
+
+.font-anton {
+  font-family: "Anton", sans-serif;
+}
+
+.font-blackops {
+  font-family: "Black Ops One", sans-serif;
+}
+
+.font-bowlby {
+  font-family: "Bowlby One SC", sans-serif;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes ropeSwing {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  12% {
+    transform: rotate(14deg);
+  }
+
+  25% {
+    transform: rotate(-12deg);
+  }
+
+  38% {
+    transform: rotate(9deg);
+  }
+
+  51% {
+    transform: rotate(-7deg);
+  }
+
+  64% {
+    transform: rotate(5deg);
+  }
+
+  77% {
+    transform: rotate(-3deg);
+  }
+
+  90% {
+    transform: rotate(1deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.animate-rope-swing {
+  transform-origin: 50% 0%;
+  animation: ropeSwing 6s cubic-bezier(0.37, 0, 0.63, 1) forwards;
+}
