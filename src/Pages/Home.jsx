@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Sidebar from "../componets/sidebar";
 import fotoSaya from "../assets/foto_saya.png";
 import About from "./About";
+import Project from "./Project";
 
 const roles = [
   "Full Stack Developer",
@@ -64,7 +65,7 @@ const Home = () => {
 
             {/* Download CV */}
             <a
-              href="/cv-febru.pdf"
+              href="Assets/CV_Febru_Ferdiansyah.pdf"
               download
               className="mt-7 inline-flex items-center justify-center rounded-2xl border border-black bg-white/40 px-6 py-3 text-base font-bold text-white backdrop-blur-md transition duration-300 hover:-translate-y-1 hover:bg-white hover:text-black md:text-lg"
             >
@@ -179,7 +180,7 @@ const Home = () => {
       <section
         id="project"
         className="min-h-screen w-full bg-black text-white"
-      >
+      ><Project />
         {/* PROJECT WILL BE CREATED HERE */}
       </section>
       <section

@@ -300,7 +300,7 @@ const About = () => {
 
           <a
             href="#project"
-            className="mt-5 inline-flex rounded-full bg-black px-7 py-3 font-anton text-xs text-white transition duration-300 hover:-translate-y-1 hover:bg-blue-500"
+            className="mt-5 inline-flex rounded-full bg-black px-7 py-3 font-bbh text-xs text-white transition duration-300 hover:-translate-y-1 hover:bg-gray-500"
           >
             VIEW PROJECT
           </a>
